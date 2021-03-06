@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logologin"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tEmail"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tPassword"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/btnlogin"
+        android:backgroundTint="@android:color/holo_blue_light"/>
+
+
+
+</LinearLayout>
